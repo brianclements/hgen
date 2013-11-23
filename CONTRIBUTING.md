@@ -61,10 +61,16 @@ model][6].
 
     etc.
 
+* If you are working on a particular issue, include that number in your topic
+  branch:
+
+    `git checkout -b develop/123-fixing-an-issue develop`
+
 #### For All Projects
 * Please avoid working directly on the "master" branch.
 * Make commits of logical units.
 * Check for unnecessary whitespace with `git diff --check` before committing.
+* Please use spaces for all indentation and alignment, _no tabs_.
 * Make sure your commit messages are in the [proper format][3]:
 
 ````
@@ -109,6 +115,8 @@ a ticket number:
 Before submitting, make sure you have reviewed the [standard GitHub
 workflow][13] and understand the difference between your fork (origin) and
 repository from which you forked from (upstream).
+
+* [Squash][4] your commits if needed first.
 
 * [Push][9] your changes to a topic branch in your fork of the repository:
 
