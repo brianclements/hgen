@@ -9,9 +9,9 @@ Please:
 * *Always* add tests and docs for your code.
 * Use [Semantic versioning][5].
 * Use appropriate branching strategy:
-    * [GitHub Flow][14] for small projects.
+    * [GitHub Flow][7] for small projects.
     * [Vincent Driessen's][6] branching model for large projects.
-* Add yourself to the [AUTHORS][7] file in an alphabetical order.
+* Add yourself to the [AUTHORS](AUTHORS.md) file in an alphabetical order.
 
 ## In Detail
 ### Getting Started
@@ -27,7 +27,7 @@ Please:
 ### Making Changes
 #### Small Projects
 The branching strategy for small projects is inspired by GitHub's own
-[GitHub Flow][14]:
+[GitHub Flow][7]:
 
 * Make a descriptively named topic branch off of the `master` branch.
 
@@ -77,13 +77,13 @@ model][6].
     (#99999) Make the example in CONTRIBUTING imperative and concrete
 
     Without this patch applied the example commit message in the CONTRIBUTING
-    document is not a concrete example.  This is a problem because the
+    document is not a concrete example. This is a problem because the
     contributor is left to imagine what the commit message should look like
-    based on a description rather than an example.  This patch fixes the
+    based on a description rather than an example. This patch fixes the
     problem by making the example concrete and imperative.
 
     The first line is a real life imperative statement with a ticket number
-    from our issue tracker.  The body describes the behavior without the patch,
+    from our issue tracker. The body describes the behavior without the patch,
     why this is a problem, and how the patch fixes the problem when applied.
 ````
 
@@ -102,7 +102,7 @@ a ticket number:
     (doc) Add documentation commit example to CONTRIBUTING
 
     There is no example for contributing a documentation commit
-    to the Puppet repository. This is a problem because the contributor
+    to the repository. This is a problem because the contributor
     is left to assume how a commit of this nature may appear.
 
     The first line is a real life imperative statement with '(doc)' in
@@ -153,11 +153,10 @@ Thank you for your involvement!
 [4]: http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html 
 [5]: http://semver.org
 [6]: http://nvie.com/posts/a-successful-git-branching-model
-[7]: https://github.com/brianclements/hgen/blob/master/AUTHORS.md "AUTHORS.md"
+[7]: http://scottchacon.com/2011/08/31/github-flow.html
 [8]: https://github.com/signup/free
 [9]: https://help.github.com/articles/pushing-to-a-remote 
 [10]: https://help.github.com/articles/using-pull-requests 
 [11]: http://help.github.com
 [12]: http://git-scm.com/documentation 
 [13]: http://stackoverflow.com/q/9257533/2607578
-[14]: http://scottchacon.com/2011/08/31/github-flow.html

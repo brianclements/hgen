@@ -22,10 +22,10 @@ Suggestions and contributions to hgen are always welcome and appreciated.
 This is one of my first python projects and definitely my first worth open
 sourcing here on GitHub. If you don't feel like contributing actual code, but
 see some glaringly obvious issues with anything from documentation, to
-packaging, to even the code itself, feel free to make a [Suggestion][4] on the
+packaging, to even the code itself, feel free to make a [Suggestion][1] on the
 wiki.
 
-For contributing actual code, please see the [CONTRIBUTING][1] file for further
+For contributing actual code, please see the [CONTRIBUTING](CONTRIBUTING.md) file for further
 instructions.
 
 ## Documentation
@@ -37,12 +37,9 @@ The newest version will be kept on GitHub under the `master` branch.
 ## Community
 
 ## License
-Hgen is licensed under the MIT license. See the [LICENSE][2] file.
+Hgen is licensed under the MIT license. See the [LICENSE](LICENSE-MIT) file.
 
 ## Credits
-For a list of contributers, see the [AUTHORS][3] file.
+For a list of contributers, see the [AUTHORS](AUTHORS.md) file.
 
-[1]: https://github.com/brianclements/hgen/blob/master/CONTRIBUTING.md "CONTRIBUTING.md"
-[2]: https://github.com/brianclements/hgen/blob/master/LICENSE-MIT.md "LICENSE-MIT"
-[3]: https://github.com/brianclements/hgen/blob/master/AUTHORS.md "AUTHORS.md"
-[4]: https://github.com/brianclements/hgen/wiki/suggestions "Wiki: Suggestions"
+[1]: https://github.com/brianclements/hgen/wiki/suggestions "Wiki: Suggestions"
